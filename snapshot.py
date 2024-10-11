@@ -22,7 +22,7 @@ connection = sdk.Connection(
 )
 
 # Lista de nomes ou IDs das VMs
-vm_names = ['cdgestic065','CDGESTIC066', 'CDGESTIC067','CDGESTIC068','CDGESTIC069','CDGESTIC070','CDGESTIC076','CDGESTIC077','CDGESTIC078','CDGESTIC079' ]  # Adicione o nome ou IDs das VMs aqui
+vm_names = ['CDGESTIC065','CDGESTIC066', 'CDGESTIC067','CDGESTIC068','CDGESTIC069','CDGESTIC070','CDGESTIC076','CDGESTIC077','CDGESTIC078','CDGESTIC079' ]  # Adicione o nome ou IDs das VMs aqui
 
 # Obtém a data atual (dia e mês)
 current_date = datetime.now().strftime('%d-%m')  # Formato: DD-MM
